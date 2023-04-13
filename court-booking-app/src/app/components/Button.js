@@ -1,6 +1,5 @@
 import React from "react";
 import "./Button.css";
-import { Link } from "react-router-dom";
 
 const STYLES = ["btn--primary", "btn--outline"];
 
@@ -21,7 +20,7 @@ export const Button = ({
 
   return (
     <button
-      className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+      className={`btn--large ${checkButtonStyle} ${checkButtonSize}`}
       onClick={onClick}
       type={type}
     >

@@ -1,33 +1,33 @@
 :root {
-    --fs-xl: 5rem;
-    --fs-300: 1.7rem;
+    --fs-xl: 5.6rem;
+    --fs-md: 1.7rem;
 }
 
 @media (min-width: 576px) {
     :root {
-        --fs-xl: 6.4rem;
-        --fs-300: 2.1rem;
+        --fs-xl: 6.5rem;
+        --fs-md: 2rem;
     }
 }
 
 @media (min-width: 768px) {
     :root {
-        --fs-xl: 8rem;
-        --fs-300: 2.7rem;
+        --fs-xl: 7.7rem;
+        --fs-md: 2.3rem;
     }
 }
 
 @media (min-width: 992px) {
     :root {
         --fs-xl: 9rem;
-        --fs-300: 3rem;
+        --fs-md: 2.7rem;
     }
 }
 
 @media (min-width: 1200px) {
     :root {
-        --fs-xl: 10rem;
-        --fs-300: 3.3rem;
+        --fs-xl: 11rem;
+        --fs-md: 3.3rem;
     }
 }
 
@@ -43,17 +43,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container-customized{
-
+.btns{
+    margin: 6px;
 }
 
 .header-text{
     font-size: var(--fs-xl);
-    letter-spacing: -5px;
+    letter-spacing: -6px;
+}
+
+.text-green{
+    color: #05007d;
 }
 
 .body-text{
-    font-size: var(--fs-300);
+    font-size: var(--fs-md);
     letter-spacing: -2px;
     color: aliceblue;
 }
